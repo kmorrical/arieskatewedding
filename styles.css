@@ -1,0 +1,552 @@
+nav {
+  padding-top: 20px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.marker{
+  height: 80px;
+  width: auto;
+}
+
+.markerText{
+  color: grey;
+}
+
+.desktopNav{
+  padding-left: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+a:hover{
+  color: black;
+}
+
+.whiteText {
+  color: white;
+}
+
+#grad {
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, darkolivegreen); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, darkolivegreen); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, darkolivegreen); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, darkolivegreen); /* Standard syntax */
+}
+
+#btn {
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, darkolivegreen); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, darkolivegreen); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, darkolivegreen); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, darkolivegreen); /* Standard syntax */
+}
+
+header {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#hiddenMenu {
+  display: none;
+  background-color: slategrey;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  z-index: 50;
+
+}
+
+.ak {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+body {
+  border: solid 10px;
+  border-color: slategrey;
+}
+
+#h1 {
+  padding-left: 0px;
+   font-family: 'Lobster', cursive;
+   font-size: 36px;
+}
+
+#smallRegHeading {
+  padding-left: 30px;
+   font-family: 'Lobster', cursive;
+   font-size: 36px;
+   text-align: left;
+}
+
+#h1two { 
+   font-family: 'Lobster', cursive;
+}
+
+.iconC {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.carousel {
+  width:640px;
+  height:360px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 55px 55px 55px 55px;
+  background-color: white;
+}
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.item {
+  width: 100%;
+  height: auto;
+  background-color: #777;
+  border-radius: 55px 55px 55px 55px; 
+  background-color: white;
+}
+
+.parrot {
+  height: 100px;
+  width: auto;
+}
+
+#parrot1 {
+  float: right;
+}
+
+#parrot2 {
+  float: left;
+}
+
+#credits {
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+.bottomImg {
+  max-width:100%;
+  max-height:100%;
+}
+
+.logoImg {
+  max-width:100%;
+  max-height:100%;
+}
+
+a:active{
+  color: white;
+}
+
+.mainPhoto {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainDiv {
+  width: 100%;
+    background-color: #b5edaa;
+    padding-bottom: 40px;
+}
+
+#mainPhotoDiv {
+  position: relative;
+  z-index: 20;
+}
+
+#photoDiv {
+  padding-bottom: 80px;
+}
+
+.spanBars {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  border: 1px;
+  float: left;
+}
+
+#demo {
+  color: white;
+  font-size: 20px;
+}
+
+.floatCenter {
+  display: inline-block;
+}
+
+.registryLogo {
+  height: 100px;
+  width: auto;
+}
+
+.registryRow {
+  padding-left: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#weAreRegisteredAt {
+  padding-left: 150px;
+}
+
+.paddingSpan {
+  padding-left: 15px;
+  color: slategrey;
+}
+
+li {
+  list-style-type: none;
+  border-bottom: darkgrey solid 1px;
+  padding-top: 5px;
+}
+
+#bigBall {
+  height: 650px;
+  width: auto;
+}
+
+.LobsterH {
+  font-family: 'Lobster', cursive;
+  padding-left: 30px;
+}
+
+.answersP {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.photostripLine {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#amazonPic {
+  height: 60px;
+  width: auto;
+}
+
+#naglalakad {
+  width: 100%;
+  height: auto;
+}
+
+#targetPic {
+  height: 35px;
+  width: auto;
+}
+
+#macysPic {
+  height: 50px;
+  width: auto;
+}
+
+
+#wrapper {
+  text-align: center;
+  padding:0px;
+  margin:0px;
+}
+
+#wrapper2 {
+  text-align: center;
+  margin:0px;
+  padding: 0px;
+}
+
+#logoBox{
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#logoBox2{
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+   background-color: white;
+   width: 80%;
+   text-align: center;
+}
+
+#peekingphoto {
+ height: 175px;
+ width: auto;
+}
+
+#peekingphoto2 {
+ height: auto;
+ width: 250px;
+ z-index: 1;
+}
+
+.col-md-3{
+  padding: 0px;
+}
+
+#photostriplong{
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#pairDiv {
+  background-color: purple;
+  background-image: url('https://i.imgur.com/vFhK7pf.png');
+  background-position: top center;
+  border-left: solid 7.5px darkgrey;
+  border-top: solid 15px darkgrey;
+  border-radius: 5px;
+}
+
+#awnoldPartner {
+  border-right: solid 7.5px darkgrey;
+  border-top: solid 15px darkgrey;
+  border-radius: 5px;
+}
+
+.honeybody{
+  background-color: #8CFFE6;
+  background-image: url("https://i.imgur.com/5B5mwBf.png");
+  background-size: 50%;
+}
+
+.h2honey{font-family: 'Modak', cursive; color: #FF8CA5;
+margin-top: 10px;
+}
+
+.h1honey{font-family: 'Bungee Outline', cursive; color: #FF8CA5;}
+
+#bigdivs{
+  border: 2px solid #FF8CA5;
+  text-align: center;
+}
+
+#firstair{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#secondiar{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#homepic{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+h6{
+  color: #FF8CA5;
+  font-weight: bold;
+  text-align: center;
+}
+
+#jalPic {
+  height: 100px;
+  width: auto;
+}
+
+#panda{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.honeyp{
+  color: #00CCAA;
+}
+
+#car{
+  height: 90px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#shinkansen{
+  height: auto;
+  width: 125px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#asakusaevening{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#temple{
+  height: 80px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#ramen {
+  height: 75px;
+  width: auto;
+}
+
+#kamakura{
+  height: 65px;
+  width: auto;
+}
+
+#enoshima{
+  height: 65px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#ktrain{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#loveh{
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#owls{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+}
+
+#skyliner{
+  margin-top: 10px;
+  height: 40px;
+  width: auto;
+}
+
+#key{
+  height: 40px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#shin{
+  height: 70px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#explore{
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#shib{
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#robot{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+}
+
+#locker{
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+}
+
+#ladies{
+  height: 100px;
+  width: auto;
+}
+
+#tokyobag {
+  height: 50px;
+  width: auto;
+}
+
+#sushi {
+  height: 70px;
+  width: auto;
+  margin-top: 10px;
+}
+#know {
+  height: 100px;
+  width: auto;
+}
+
+.honeyimg{
+  text-align: center;
+}
+
+.owl-tooltip +.tooltip > .tooltip-inner {
+  background-color: #ffff4d; 
+  color:  #FF8CA5; 
+}
+  
+.here:hover{
+  cursor: default;
+}
+
+#bobuilding{
+  width: 80%;
+  height: auto;
+}
+
+#map-placeholder {
+  width: 100%;
+  height: 300px;
+}

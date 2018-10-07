@@ -1,0 +1,219 @@
+<!-- Latest compiled and minified CSS -->
+<!DOCTYPE html>
+<html lang="" ng-app="app">
+
+<head>
+    <title>Aries&Kate</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Six+Caps|Wire+One|Bad+Script" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- jQuery library -->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="mainDiv" ng-controller="HomeCtrl as ctrl">
+        <div id="desktopNavDiv" ng-if="ctrl.bigScreen">
+            <nav>
+                <a style="text-decoration: none; color: slategrey" class="desktopNav" href="#index">Home</a>
+                <a style="text-decoration: none; color: slategrey;" class="desktopNav" href="#registryLink">Registry</a>
+                <a style="text-decoration: none; color: slategrey;" class="desktopNav" href="#QAsLink">Q&A</a>
+                <a style="text-decoration: none; color: slategrey; padding-right: 10px;" class="desktopNav" href="#detailsLink"> Wedding Details </a>
+                <span id="demo"></span>
+            </nav>
+        </div>
+        <a name="index"></a>
+        <div id="mobileNav" ng-if="!ctrl.bigScreen">
+            <nav class="mobileNav">
+                <span class="spanBars"><a href="javascript:void(0)" id="menuLink" ng-click="ctrl.menuOpen()"><i class="fa fa-bars" style="color: slategrey; padding-left: 10px; margin-right: 0px;"></i>
+                </a></span>
+                <span id="demo" class="floatCenter"></span>
+            </nav>
+        </div>
+        <hr style="color: darkgrey; width: 75%; margin-bottom: 0px; padding-left: 0px; margin-left: 0px;" align="left">
+        <div id="hiddenMenu" class="col-sm-2">
+            <ul>
+                <li><a style="color: white" href="#index">HOME</a></li>
+                <li><a style="color: white" href="#registryLink">REGISTRY</a></li>
+                <li><a style="color: white" href="#QAsLink">Q&A</a></li>
+                <li><a style="color: white" href="#detailsLink">WEDDING DETAILS</a></li>
+            </ul>
+        </div>
+        <div id="mainPhotoDiv">
+            <br>
+            <br>
+            <div id="photoDiv">
+                <img class="mainPhoto" id="mainPhoto" src="https://i.imgur.com/tNyfKCW.png"></img>
+            </div>
+            <div id="secondDiv" class="col-md-12" style="background-color: darkgrey; color: white; padding-bottom: 60px;">
+                <div class="col-md-6" style="background-color: white; color: darkgrey; padding-bottom: 40px;" id="awnoldPartner">
+                    <a name="detailsLink"></a><h1 id="h1" style="margin: 0px; padding-top: 20px; font-family: 'Lobster', cursive;">Wedding Details</h1>
+                    <h3>Ceremony <span style="font-size: 10px; vertical-align: middle;" class="fa fa-circle"></span> Balboa Park <span class="fa fa-circle" style="font-size: 10px; vertical-align: middle;"></span> 8/18/2018 </h3>
+                    <p style="font-size: 20px;">Our wedding ceremony will be held at the Botanical Lawns (in front of the Botanical Building) at Balboa Park. The ceremony will take place at 4:30 PM.</p>
+                    <h3>Reception <span class="fa fa-circle" style="font-size: 10px; vertical-align: middle;"></span> MOPA <span class="fa fa-circle" style="font-size: 10px; vertical-align: middle;"></span> Dinner, Drinks, & Dancing </h3>
+                    <p style="font-size: 20px; margin-bottom: 0px;">After the ceremony, there will be a cocktail/appetizer hour at the lawn next to the ceremony while the reception is set up. When the reception is ready, Kate's family will direct you on a short walk to the Museum of Photographic Arts (MOPA) for dinner, drinks, and dancing.
+                        <br /><br />The map below will show you the locations of parking, the ceremony, and the reception. A more detailed map has been included in your invitation. </p>
+                </div>
+                <div class="col-md-6 text-right" id="pairDiv">
+                    <div ng-if="ctrl.bigScreen" id="ariespeeking" class="row col-md-12" style="background-color: darkgrey; padding-right: 0px; margin: 0px;">
+                        <img src="https://i.imgur.com/gmqoe2E.png" id="peekingphoto">
+                    </div>
+                    <div ng-if="ctrl.bigScreen" id="thirdDiv" style="background-color: white; color: black; padding-right: 0px; padding-left: 0px;" class="col-md-12">
+                        <a name="registryLink"></a>
+                        <div class="col-md-8" id="logoCol">
+                            <p id="smallRegHeading">Registry Information</p>
+                            <div class="col-md-6" id="logoBox" style="border: solid darkgrey 3px">
+                                <a href="https://www.macys.com/wgl/registry/guest/6819204" target="_blank" style="color: #80ced6;">
+                                <img src="https://i.imgur.com/njOCSfb.png" id="targetPic">
+                                <p><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size:30px;"></i><b> Click for Macy's registry</b></p>
+                                </a>
+                            </div>
+                            <div class="col-md-6" id="logoBox" style="border: solid darkgrey 3px">
+                                <a href="https://www.amazon.com/wedding/share/ariesandkate" target="_blank" style="color: #80ced6;">
+                                <img src="https://i.imgur.com/0qSJVAw.jpg" id="amazonPic">
+                                <p><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size:30px;"></i><b> Click for Amazon registry</b></p>
+                                </a>
+                            </div>
+                            <div class="col-md-12" id="logoBox" style="border: solid darkgrey 3px; text-align: center;">
+                                <a href="https://www.target.com/gift-registry/giftgiver?registryId=b4e6cb7864a54f619ca9480808fb2c0a&lnk=registry_custom_url#1" target="_blank" style="color: #80ced6;"><img src="https://i.imgur.com/3rwJd5q.png" id="targetPic">
+                                 <p><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size:30px;"></i><b> Click for Target registry</b></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" id="greyCol" style="background-color: darkgrey; position: relative; ">
+                            <img class="pull-left" src="https://i.imgur.com/xeNBjGh.png" id="peekingphoto2" style="position: absolute; bottom: 0;">
+                        </div>
+                    </div>
+                    <div ng-if="!ctrl.bigScreen" id="ariespeeking" class="row col-xs-12" style="background-color: darkgrey; padding-right: 0px; margin: 0px; background-position: -3px;">
+                        <img src="https://i.imgur.com/gmqoe2E.png" id="peekingphoto">
+                    </div>
+                    <div ng-if="!ctrl.bigScreen" id="thirdDiv" style="background-color: white; color: black; padding-right: 0px; padding-left: 0px; background-position: -3px;" class="col-xs-12">
+                        <a name="registryLink"></a>
+                        <div class="col-xs-2">
+                        </div>
+                        <div class="col-xs-6" id="logoCol" style="background-position: -3px;">
+                            <span id="smallRegHeading">Registry Information</span>
+                            <div class="col-xs-12" id="logoBox" style="border: solid darkgrey 3px">
+                                <a href="https://www.macys.com/wgl/registry/guest/6819204" target="_blank" style="color: #80ced6;">
+                                <img src="https://i.imgur.com/njOCSfb.png" id="targetPic">
+                                <p><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size:30px;"></i><b> Click for Macy's registry</b></p>
+                                </a>
+                            </div>
+                            <div class="col-xs-12" id="logoBox" style="border: solid darkgrey 3px">
+                                <a href="https://www.amazon.com/wedding/share/ariesandkate" target="_blank" style="color: #80ced6">
+                                <img src="https://i.imgur.com/0qSJVAw.jpg" id="amazonPic">
+                                <p><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size:30px;"></i><b> Click for Amazon registry</b></p>
+                                </a>
+                            </div>
+                            <div class="col-xs-12" id="logoBox" style="border: solid darkgrey 3px;">
+                                <a href="https://www.target.com/gift-registry/giftgiver?registryId=b4e6cb7864a54f619ca9480808fb2c0a&lnk=registry_custom_url#1" target="_blank" style="color: #80ced6;"><img src="https://i.imgur.com/3rwJd5q.png" id="targetPic">
+                                <p><i class="fa fa-shopping-bag" aria-hidden="true" style="font-size:30px;"></i><b> Click for Target registry</b></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4" id="greyCol" style="background-color: darkgrey; position: relative; background-position: -3px;">
+                            <img class="pull-left" src="https://i.imgur.com/xeNBjGh.png" id="peekingphoto2" style="margin-top: 120%; position: absolute; bottom: 0;">
+                        </div>
+                    </div>
+                </div>
+                                <!--  <img src="https://i.imgur.com/RTNUxj5.png" id="photostriplong"> -->
+                <div id="fourthDiv" class="col-xs-12" style="background-color: darkgrey; color: white; margin-bottom: 0px;">
+                    <a name="QAsLink"></a>
+                    <h1 style="padding-top: 50px; padding-left: 30px; margin-top: 40px; font-family: 'Lobster', cursive;">Questions And Answers</h1>
+                    <h2 class="LobsterH">Where do I park?</h2>
+                    <p class="answersP">You can park for free in any of Balboa Park's lots. The nearest lots are the Organ Pavilion parking lot or the South Caoursel parking lot.</p>
+                    <h2 class="LobsterH">What's for dinner?</h2>
+                    <p class="answersP">Dinner will feature main courses of salmon and tri-tip beef, along with sides. We will also have finger foods/appetizers and drinks offered between the reception and the ceremony.</p>
+                    <h2 class="LobsterH">Will there be alcohol?</h2>
+                    <p class="answersP">Alcohol will be provided by the bride and groom. There will be an open bar.</p>
+                    <h2 class="LobsterH">How far is the ceremony from the reception? Will I have to move my car or drive?</h2>
+                    <p class="answersP">The ceremony is located one-tenth of a mile from the reception. You should not move your car.</p>
+                    <h2 class="LobsterH">I have another question..</h2>
+                    <p class="answersP"> Please reach out to Aries or Kate directly.</p>
+                </div>
+                <div id="naglalakadphoto" style="margin-bottom: 50px" ;>
+                    <img src="https://i.imgur.com/l8rWHPE.png" id="naglalakad">
+                </div>
+            <img class="marker" src="https://i.imgur.com/Ky7ui1L.png"><span class="markerText"><b>Parking</b></span>
+            <img class="marker" src="https://i.imgur.com/LlWZzbp.png"><span class="markerText"><b>Reception</b></span>
+            <img class="marker" src="https://i.imgur.com/69aPMUj.png"><span class="markerText"><b>Wedding</b></span>
+        </div>
+        <div id="map-placeholder" style="color: grey; vertical-align: middle; text-align: center; font-style: italic;">
+            <span id="map-placeholder-text" style="font-size: 20px; padding-top: 100px;">. . . If map does not load, please refresh page <i class="fa fa-smile-o"></i> . . . </span>
+        </div>
+        <div id="map" style="width:100%;height:400px;"></div>
+        </div>
+        <img src="https://i.imgur.com/RTNUxj5.png" id="photostriplong" class="align-center">
+        <a class="here" href="honeymoonoo.html" style="color: white">HERE</a>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcsB4gP8DLRX5JjT4wqmcVbGA9BKVzAN0&amp;callback=initMap"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="app/app.module.js"></script>
+        <script src="app/home/home.controller.js"></script>
+        <script>
+                            $(document).ready(function() {
+                                $("#menuLink").click(function() {
+                                    $("#hiddenMenu").toggle("slide", { direction: "left" }, 300);
+                                });
+                            });
+
+                            function initMap() {
+                                var myLatLng = { lat: 32.732498, lng: -117.149277 };
+                                var myParking1 = { lat: 32.730653, lng: -117.151833 };
+                                var myParking2 = { lat: 32.728726, lng: -117.151264 };
+                                var myParking3 = { lat: 32.733776, lng: -117.146690 };
+                                var myReception = { lat: 32.731414, lng: -117.148842 };
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 13.5,
+                                    center: myLatLng
+                                });
+
+                                var icons = {
+                                    parking: {
+                                        icon: 'https://i.imgur.com/Ky7ui1L.png'
+                                    },
+                                    martini: {
+                                        icon: 'https://i.imgur.com/LlWZzbp.png'
+                                    },
+                                    heart: {
+                                        icon: 'https://i.imgur.com/69aPMUj.png'
+                                    }
+                                };
+
+                                var features = [{
+                                    position: new google.maps.LatLng(32.728726, -117.151264),
+                                    type: 'parking'
+                                }, {
+                                    position: new google.maps.LatLng(32.730653, -117.151833),
+                                    type: 'parking'
+                                }, {
+                                    position: new google.maps.LatLng(32.733776, -117.146690),
+                                    type: 'parking'
+                                }, {
+                                    position: new google.maps.LatLng(32.731414, -117.148842),
+                                    type: 'martini'
+                                }, {
+                                    position: new google.maps.LatLng(32.732498, -117.149277),
+                                    type: 'heart'
+                                }];
+
+                                // Create markers.
+                                features.forEach(function(feature) {
+                                    var marker = new google.maps.Marker({
+                                        position: feature.position,
+                                        icon: icons[feature.type].icon,
+                                        map: map
+                                    });
+                                });
+                            }
+        </script>
+</body>
+
+</html>
